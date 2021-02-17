@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6b63ffc9;
+}
+.header-area{
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-area{
+    margin-top: 30px;
+    color: #fff;
+}
+
+.title{
+    font-size: 50px;
+    letter-spacing: 25px;
+    font-family: 'Anton', sans-serif;
+}
+.f{
+    color: #fff5f5;
+}
+.i{
+    color: #fda7dc;
+}
+.n{
+    color: #93ff27;
+}
+.d{
+    color: #ffd68a;
+}
+.o{
+    color: #ff1ef6;
+}
+.u{
+    color: #ff9c9c;
+}
+.t{
+    color: #19ffff;
+}
+.underline{
+    width: 130px;
+    height: 2px;
+    background: #000;
+}
+.underline1{
+    width: 230px;
+    height: 5px;
+    background: #000;
+    margin-top: 6px;
+}
+
+.title-area p{
+    font-size: 14px;
+    /* font-family: 'Anton', sans-serif; */
+    letter-spacing: 4px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.733);
+}
+#form{
+    background: #ffffffd1;
+    width: 80%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    display: flex;
+}
+
+#input{
+    border: none;
+    padding: 13px; 
+    width: 83%;
+    margin-right: 1%;
+
+}
+#input:focus{
+    background: rgba(0, 0, 0, 0.555);
+    color: white;
+    
+}
+.btn{
+    width: 16%;
+    border: none;
+    background: rgba(0, 0, 0, 0.856);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer
+}
+.btn:hover{
+    background: rgba(0, 0, 0, 0.486);
+}
+
+#showdata{
+    width: 80%;
+    margin:auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.result-box{
+    border-radius: 10px;
+    padding: 30px 20px;
+    background: #ffffffd1;
+    margin-bottom: 10px;
+}
+
+.box{
+    width: 80%
+}
+.box h3{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+    font-size: 25px;
+}
+.box a{
+    font-size: 18px;
+    text-decoration: none;
+}
+.box a:hover{
+    text-decoration:underline;
+}
+
+.box p{
+    font-size: 16px; 
+    margin-top: 10px;
+    
+}
